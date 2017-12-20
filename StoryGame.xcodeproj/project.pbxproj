@@ -12,6 +12,9 @@
 		8982881A1FE8010A007F2D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898288181FE8010A007F2D02 /* Main.storyboard */; };
 		8982881C1FE8010A007F2D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8982881B1FE8010A007F2D02 /* Assets.xcassets */; };
 		8982881F1FE8010A007F2D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8982881D1FE8010A007F2D02 /* LaunchScreen.storyboard */; };
+		898288271FE81154007F2D02 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898288261FE81154007F2D02 /* Story.swift */; };
+		898288291FE84934007F2D02 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898288281FE84934007F2D02 /* Page.swift */; };
+		8982882B1FE91FBB007F2D02 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8982882A1FE91FBB007F2D02 /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8982881B1FE8010A007F2D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8982881E1FE8010A007F2D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		898288201FE8010A007F2D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898288261FE81154007F2D02 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		898288281FE84934007F2D02 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		8982882A1FE91FBB007F2D02 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				8982881B1FE8010A007F2D02 /* Assets.xcassets */,
 				8982881D1FE8010A007F2D02 /* LaunchScreen.storyboard */,
 				898288201FE8010A007F2D02 /* Info.plist */,
+				898288261FE81154007F2D02 /* Story.swift */,
+				898288281FE84934007F2D02 /* Page.swift */,
+				8982882A1FE91FBB007F2D02 /* PageController.swift */,
 			);
 			path = StoryGame;
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			files = (
 				898288171FE80109007F2D02 /* ViewController.swift in Sources */,
 				898288151FE80109007F2D02 /* AppDelegate.swift in Sources */,
+				898288291FE84934007F2D02 /* Page.swift in Sources */,
+				898288271FE81154007F2D02 /* Story.swift in Sources */,
+				8982882B1FE91FBB007F2D02 /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,10 @@
 		898288271FE81154007F2D02 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898288261FE81154007F2D02 /* Story.swift */; };
 		898288291FE84934007F2D02 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898288281FE84934007F2D02 /* Page.swift */; };
 		8982882B1FE91FBB007F2D02 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8982882A1FE91FBB007F2D02 /* PageController.swift */; };
+		898288301FEA9B11007F2D02 /* Ominous.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8982882D1FEA9B10007F2D02 /* Ominous.wav */; };
+		898288311FEA9B11007F2D02 /* PageTurn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8982882E1FEA9B11007F2D02 /* PageTurn.wav */; };
+		898288321FEA9B11007F2D02 /* HappyEnding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8982882F1FEA9B11007F2D02 /* HappyEnding.wav */; };
+		898288341FEA9B9F007F2D02 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898288331FEA9B9F007F2D02 /* Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		898288261FE81154007F2D02 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		898288281FE84934007F2D02 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		8982882A1FE91FBB007F2D02 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		8982882D1FEA9B10007F2D02 /* Ominous.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ominous.wav; sourceTree = "<group>"; };
+		8982882E1FEA9B11007F2D02 /* PageTurn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PageTurn.wav; sourceTree = "<group>"; };
+		8982882F1FEA9B11007F2D02 /* HappyEnding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HappyEnding.wav; sourceTree = "<group>"; };
+		898288331FEA9B9F007F2D02 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,14 +71,26 @@
 				898288141FE80109007F2D02 /* AppDelegate.swift */,
 				898288161FE80109007F2D02 /* ViewController.swift */,
 				898288181FE8010A007F2D02 /* Main.storyboard */,
-				8982881B1FE8010A007F2D02 /* Assets.xcassets */,
-				8982881D1FE8010A007F2D02 /* LaunchScreen.storyboard */,
-				898288201FE8010A007F2D02 /* Info.plist */,
 				898288261FE81154007F2D02 /* Story.swift */,
 				898288281FE84934007F2D02 /* Page.swift */,
 				8982882A1FE91FBB007F2D02 /* PageController.swift */,
+				898288331FEA9B9F007F2D02 /* Audio.swift */,
+				8982881B1FE8010A007F2D02 /* Assets.xcassets */,
+				8982882C1FEA9AAD007F2D02 /* Resources */,
+				8982881D1FE8010A007F2D02 /* LaunchScreen.storyboard */,
+				898288201FE8010A007F2D02 /* Info.plist */,
 			);
 			path = StoryGame;
+			sourceTree = "<group>";
+		};
+		8982882C1FEA9AAD007F2D02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8982882F1FEA9B11007F2D02 /* HappyEnding.wav */,
+				8982882D1FEA9B10007F2D02 /* Ominous.wav */,
+				8982882E1FEA9B11007F2D02 /* PageTurn.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +152,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898288321FEA9B11007F2D02 /* HappyEnding.wav in Resources */,
+				898288311FEA9B11007F2D02 /* PageTurn.wav in Resources */,
 				8982881F1FE8010A007F2D02 /* LaunchScreen.storyboard in Resources */,
+				898288301FEA9B11007F2D02 /* Ominous.wav in Resources */,
 				8982881C1FE8010A007F2D02 /* Assets.xcassets in Resources */,
 				8982881A1FE8010A007F2D02 /* Main.storyboard in Resources */,
 			);
@@ -145,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898288341FEA9B9F007F2D02 /* Audio.swift in Sources */,
 				898288171FE80109007F2D02 /* ViewController.swift in Sources */,
 				898288151FE80109007F2D02 /* AppDelegate.swift in Sources */,
 				898288291FE84934007F2D02 /* Page.swift in Sources */,
